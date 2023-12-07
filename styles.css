@@ -1,13 +1,13 @@
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
 body{
     background-color: #070724;
-    background-image: url(Group\ 6.png);
+    background-image: url(/assets/Group\ 6.png);
 }
 header{
-
     height: 91px;
     width: 100%;
     display: flex;
@@ -15,6 +15,8 @@ header{
     justify-content: space-between;
     align-content: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    align-items: center;
+    padding: 0px 20px;
 }
 .logo > img{
     display: none;
@@ -23,8 +25,8 @@ header{
     display: flex;
     width: 109px;
     height: 36px;
-    margin-left: 32px;
-    margin-top: 22px;
+    /* margin-left: 32px;
+    margin-top: 22px; */
     align-items: center;
     flex-wrap: nowrap;
     color: #FFFFFF;
@@ -39,11 +41,10 @@ header{
     width: 665px;
     height: 25px;
     justify-content: space-between;
-    margin-top: 33px;
-    margin-right: 40px;
+    /* margin-top: 33px;
+    margin-right: 40px; */
     align-items: center;
     color: #FFFFFF;
-    
 }
 .planets > a{
     text-decoration: none;
@@ -56,19 +57,24 @@ header{
     line-height: 25px;
 }
 .photo{
-    width: 64%;
+
+    /* width: 64%;
     position: relative;
-    height: 711.5px;
+    height: 711.5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64%;
 }
 .photo > img{
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
 }
 .information{
-    width: 36%;
-    height: 711.5px;
+    /* width: 36%; */
+    /* height: 711.5px; */
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -79,8 +85,10 @@ header{
 main{
     display: flex;
     flex-direction: row;
-    height: 711.5px;
+    /* height: 711.5px; */
     width: 100%;
+    padding: 5rem 15rem;
+    justify-content: space-between;
 }
 .text{
     width: 350px;
@@ -226,10 +234,7 @@ footer{
 
 }
 
-
-
-
-@media only screen and (max-width: 768px){
+ @media only screen and (max-width: 1200px){
     header{
         height: 159px;
         width: 100%;
@@ -237,6 +242,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
     }
     .photo{
         height: 461px;
@@ -248,6 +254,7 @@ footer{
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
     .photo > img{
         height: 213px;
@@ -318,9 +325,7 @@ footer{
 }
 
 
-
-
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 500px){
     header{
         display: flex;
         align-items: center;
@@ -369,6 +374,7 @@ footer{
     main{
         height: 619px;
         width: 100%;
+        padding: 0px;
     }
     .group1{
         display: flex;
@@ -424,4 +430,4 @@ footer{
         letter-spacing: -0.75px;
         padding-right: 24px;
     }
-}
+} 
