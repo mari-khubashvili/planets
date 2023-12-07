@@ -1,0 +1,427 @@
+*{box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #070724;
+    background-image: url(Group\ 6.png);
+}
+header{
+
+    height: 91px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.logo > img{
+    display: none;
+}
+.logo{
+    display: flex;
+    width: 109px;
+    height: 36px;
+    margin-left: 32px;
+    margin-top: 22px;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #FFFFFF;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36.23px;
+    letter-spacing: -1.05px;
+}
+.planets{
+    display: flex;
+    width: 665px;
+    height: 25px;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-right: 40px;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.planets > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 75%;
+    letter-spacing: 1px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 25px;
+}
+.photo{
+    width: 64%;
+    position: relative;
+    height: 711.5px;
+}
+.photo > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.information{
+    width: 36%;
+    height: 711.5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 23px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 711.5px;
+    width: 100%;
+}
+.text{
+    width: 350px;
+    height: 150px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    size: 14px;
+    display: flex;
+    align-items: start;
+}
+.planet_name{
+    height: 104px;
+    width: 158px;
+    display: flex;
+    justify-content: center;
+}
+.planet_name > h1{
+    font-family: 'Antonio', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+
+}
+.Wikipedia{
+    width: 164px;
+    height: 25px;
+    display: flex;
+    flex-direction:row ;
+    gap: 8px;
+
+}
+.source{
+    display: flex;
+    flex-direction: row;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.source > p{
+    font-weight: 400;
+}
+.source > a{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.img{
+    width: 12px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.img > img{
+    height: 12px;
+    width: 12px;
+}
+.categories{
+    height: 176px;
+    width: 350px;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 25px;
+    letter-spacing: 2.57px;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rectangle{
+    height: 48px;
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+.name{
+    width: 276px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.number{
+    width: 74px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+}
+.rectangle:hover{
+    background-color: #D14C32;
+}
+.cube{
+    height: 128px;
+    width: 255px;
+    padding-left: 23px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    
+}
+.more_information{
+    height: 128px;
+    width: 1140px;
+    display: flex;
+    gap: 30px;
+
+}
+.categories1{
+    display: none;
+}
+footer{
+    height: 215px;
+    display: flex;
+    justify-content: center;
+}
+.names{
+    height: 25px;
+    width: 112px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-family: 'League Spartan', sans-serif;
+    color: #FFFFFF;  
+    opacity: 50%;
+
+}
+.time{
+    height: 52px;
+    width: auto;
+    font-family: 'Antonio', sans-serif ;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51.76px;
+    letter-spacing: -1.5;
+    color: #FFFFFF;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    header{
+        height: 159px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo{
+        height: 461px;
+        width: 100%;
+        position: relative;
+    }
+    main{
+        height: 722px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .photo > img{
+        height: 213px;
+        width: 213px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .information{
+        height: 262px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .cube{
+        display: flex;
+        gap: 1px;
+        padding-left: 15px;
+        height: 88px;
+        width: 164px;
+    }
+    .logo{
+        font-size: 28px;
+        line-height: 36.23px;
+    }
+    .planet_name > h1 {
+        font-size: 48px;
+        line-height: 62.11px;
+    }
+    .planet_name{
+        height: 62px;
+        width: 92px;
+    }
+    .group1{
+        height: 174px;
+        width: 339px;
+        display: flex;
+        flex-direction:column ;
+        gap: 11px;
+    }
+    .text{
+        height: 110px;
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .categories{
+        font-size: 9px;
+        letter-spacing: 1.93px;
+    }
+    .time{
+        font-size: 24px;
+        line-height: 31.05px;
+        letter-spacing: -0.9px;
+    }
+    .names{
+        font-size: 8px;
+        line-height: 16px;
+        letter-spacing: 0.73px;
+    }
+    .more_information{
+        display: flex;
+        gap: 11px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 68px;
+        width: 100%;
+    }
+    .logo > img{
+        display: block;
+        height: 17px;
+        width: 24px;
+    }
+    .planets{
+        display: none;
+    }
+    .logo{
+        margin-top: 0%;
+        margin-left: 0%;
+        height: 36px;
+        width: 327px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer{
+        height: 272px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .more_information{
+        display: flex;
+        flex-direction: column;
+        height: 216px;
+        width: 327px;
+        gap:8px ;
+    }
+    .cube{
+        height: 48px;
+        width: 327px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main{
+        height: 619px;
+        width: 100%;
+    }
+    .group1{
+        display: flex;
+        align-items: center;
+    }
+    .categories{
+        display: none;
+    }
+    .categories1{
+        display: flex;
+        height: 51px;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        align-items: center;
+        justify-content: space-around;
+        color: #FFFFFF;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 9px;
+        line-height: 10.08px;
+        font-weight: 700;
+        letter-spacing: 1.93px;
+    }
+    .header{
+        opacity: 50%;
+        height: 51px;
+        width: auto;
+        display: flex;
+        align-items:center ;
+    }
+    .header:hover{
+        border-bottom: 2px solid #D14C32;
+        opacity: unset;
+    }
+    .planet_name{
+        font-size: 40px;
+    }
+    .text{
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .names{
+        height: auto;
+        width: auto;
+        font-size: 8px;
+        line-height: 16px;
+        letter-spacing: 0.73px;
+    }
+    .time{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        line-height: 25.88px;
+        letter-spacing: -0.75px;
+        padding-right: 24px;
+    }
+}
